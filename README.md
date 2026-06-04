@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/iisaacbeats/SeePosition/releases">下载最新版本</a> ·
+  <a href="https://github.com/sweetorange1/SeePosition/releases">下载最新版本</a> ·
   <a href="https://iisaacbeats.cn">官方网站</a> ·
-  <a href="https://github.com/iisaacbeats/SeePosition/issues">报告问题</a>
+  <a href="https://github.com/sweetorange1/SeePosition/issues">报告问题</a>
 </p>
 
 ## 📖 项目简介

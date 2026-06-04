@@ -174,6 +174,8 @@ public:
         resetButton.onClick = [this]
         {
             owner.resetParametersToDefaults();
+            // 同步隐藏音量条按钮状态
+            hideMetersToggle.setToggleState(owner.areSideMetersHidden(), juce::dontSendNotification);
             rebuildRows();
         };
 
@@ -487,7 +489,7 @@ private:
             t.scoreHighFluxWeight = v;
             owner.audioCapture.setTuning(t);
         });
-        addParam(u8"评分对比权重", u8"快慢包络差值在评分中的权重；调高可强化"音头感"", 0.0f, 4.0f, 0.01f, audio.scoreContrastWeight, [this](float v)
+        addParam(u8"评分对比权重", u8"快慢包络差值在评分中的权重；调高可强化【音头感】", 0.0f, 4.0f, 0.01f, audio.scoreContrastWeight, [this](float v)
         {
             auto t = owner.audioCapture.getTuning();
             t.scoreContrastWeight = v;
@@ -511,7 +513,7 @@ private:
             t.scoreLowThresholdK = v;
             owner.audioCapture.setTuning(t);
         });
-        addParam(u8"强制复位时间", u8"长时间高能未回落时的兜底上膛时间；调短可减少"只触发前几次" , 0.02f, 0.40f, 0.001f, audio.forcedRearmSeconds, [this](float v)
+        addParam(u8"强制复位时间", u8"长时间高能未回落时的兜底上膛时间；调短可减少【只触发前几次】", 0.02f, 0.40f, 0.001f, audio.forcedRearmSeconds, [this](float v)
         {
             auto t = owner.audioCapture.getTuning();
             t.forcedRearmSeconds = v;
