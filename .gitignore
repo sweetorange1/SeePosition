@@ -1,0 +1,60 @@
+# CMake 构建目录
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+*.cmake
+CMakeFiles/
+
+# 构建输出
+build/
+_build/
+Build/
+out/
+Out/
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# JUCE 生成的文件
+JuceLibraryCode/
+JuceHeader.h
+AppConfig.h
+
+# 依赖库（通常通过 CMake FetchContent 下载）
+_deps/
+deps/
+
+# 二进制文件
+*.exe
+*.dll
+*.so
+*.dylib
+*.app/
+
+# 调试和日志文件
+*.log
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.res
+*.resources
+
+# 参考代码目录（不包含在开源代码中）
+_ref/
+
+# 用户设置文件
+SeePosition.settings
+*.settings
+
+# 临时文件
+*.tmp
+*.bak
+*.backup
