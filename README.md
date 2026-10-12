@@ -1,6 +1,11 @@
 # SeePosition
 
 <p align="center">
+  <img src="https://img.shields.io/badge/version-0.1.0-blue" alt="Version">
+  <img src="https://img.shields.io/badge/platform-Windows-lightgrey" alt="Platform">
+</p>
+
+<p align="center">
   <img src="icon/icon.png" alt="SeePosition Logo" width="128" height="128">
 </p>
 
