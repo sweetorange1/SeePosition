@@ -397,6 +397,14 @@ SeePosition.settings               # 用户设置文件
 - [ ] 删除所有构建目录（`cmake-build-*`, `build/`, `_Build/` 等）
 - [ ] 删除 JUCE 生成的文件（`JuceLibraryCode/`, `JuceHeader.h` 等）
 
+## 赞助支持 / Support
+
+全系软件永久免费开源，无付费墙、无功能阉割。如果它帮到了你，欢迎自愿支持开发：
+All tools are 100% free and open source. If this tool helped you, voluntary support is always appreciated:
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20on%20Ko--fi-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/iisaacbeats)
+[![Website](https://img.shields.io/badge/Donate-WeChat%20%2F%20Alipay%20%2F%20TRC20-111111?style=flat-square)](https://iisaacbeats.cn/about.html)
+
 ---
 
 <p align="center">
